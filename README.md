@@ -8,6 +8,6 @@ How to use Github Action to create or update your Azion Edge Function solution q
 4. Edit "~/config.yaml" with desired configurarion variables according to https://github.com/azeight/azion-edge-functions#config
 5. Edit your __JavaScript__ function in ["src/"](src) directory, with some coffee ☕️ ponies 🐎 and lollipops 🍭 .
 6. Github action runs when you push to __main__ branch
-7. Test your function using the URL returned at __"Github Action"__ step __*Your output domain is*__
+7. Test your function using the URL returned at __"Github Action"__ step __*"Your output domain is"*__
 
 More details on [Azion site](www.azion.com)
