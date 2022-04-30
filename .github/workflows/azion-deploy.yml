@@ -1,0 +1,21 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy_to_azion:
+    runs-on: ubuntu-latest
+    name: A job to deploy in the best CDN
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Azion Edge Functions
+        uses: azeight/azion-edge-functions@v0.2
+        id: deploy
+        with:
+          azion-auth: ${{ secrets.TOKEN }}
+      # Use the output from the `hello` step
+      - name: Your output domain is
+        run: echo "Your output domain is ${{ steps.deploy.outputs.domain }}"
+

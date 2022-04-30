@@ -1,0 +1,20 @@
+edge_functions:
+  -
+    path: "src/messages.js"
+    domain: "www.diegovic123.com.br"
+    name: "Nome no RTM"
+    args:
+      arg1: valor1
+      arg2: valor2
+    path_uri: "/api/messages/"
+    active: true
+  -
+    path: "src/content.js"
+    domain: "homolog.diegovic123.com.br"
+    name: "Function that show some content"
+    args:
+      nome: azeight
+      score: 10
+    path_uri: "/api/content/"
+    active: true
+
