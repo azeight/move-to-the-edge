@@ -1,3 +1,5 @@
+![example workflow](https://github.com/azeight/move-to-the-edge/actions/workflows/azion-deploy.yml/badge.svg)
+
 # move-to-the-edge
 
 How to use Github Action to create or update your Azion Edge Function solution quick and easily, follow the steps below:
