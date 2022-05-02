@@ -21,4 +21,14 @@ edge_functions:
       score: 10
     path_uri: "/api/content/"
     active: true
-
+  -
+    path: "src/hackaton2022.js"
+    domain: "preview.muriloazion123.com.br"
+    env: "preview"
+    origin: "httpbin.org"
+    name: "HACKATON function that show some content"
+    args:
+      nome: azeight
+      score: 10
+    path_uri: "/api/hackaton2022/"
+    active: true
