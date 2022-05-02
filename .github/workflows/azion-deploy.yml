@@ -6,7 +6,7 @@ on:
 jobs:
   deploy_to_azion:
     runs-on: ubuntu-latest
-    name: A job to deploy in the best CDN
+    name: A job to deploy in the best Edge Computing
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
