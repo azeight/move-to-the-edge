@@ -1,7 +1,7 @@
 edge_functions:
   -
     path: "src/messages.js"
-    domain: "www.muriloazion.com.br"
+    domain: "www.muriloazion123.com.br"
     name: "Nome no RTM"
     args:
       arg1: valor1
@@ -10,7 +10,7 @@ edge_functions:
     active: true
   -
     path: "src/content.js"
-    domain: "homolog.muriloazion.com.br"
+    domain: "homolog.muriloazion123.com.br"
     name: "Function that show some content"
     args:
       nome: azeight
@@ -19,7 +19,7 @@ edge_functions:
     active: true
   -
     path: "src/hackaton2022.js"
-    domain: "www2.muriloazion.com.br"
+    domain: "www2.muriloazion123.com.br"
     name: "Live example"
     args:
       nome: azeight
