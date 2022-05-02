@@ -2,6 +2,8 @@ edge_functions:
   -
     path: "src/messages.js"
     domain: "www.muriloazion123.com.br"
+    env: "preview"
+    origin: "httpbin.org"
     name: "Nome no RTM"
     args:
       arg1: valor1
@@ -11,7 +13,9 @@ edge_functions:
   -
     path: "src/content.js"
     domain: "homolog.muriloazion123.com.br"
-    name: "Function that show some content"
+    env: "production"
+    origin: "httpbin.org"
+    name: "Production function that show some content"
     args:
       nome: azeight
       score: 10
@@ -20,6 +24,8 @@ edge_functions:
   -
     path: "src/hackaton2022.js"
     domain: "www2.muriloazion123.com.br"
+    env: "preview"
+    origin: "httpbin.org"
     name: "Live example"
     args:
       nome: azeight
