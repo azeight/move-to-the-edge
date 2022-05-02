@@ -17,4 +17,13 @@ edge_functions:
       score: 10
     path_uri: "/api/content/"
     active: true
+  -
+    path: "src/hackaton2022.js"
+    domain: "www2.diegovic123.com.br"
+    name: "Live example"
+    args:
+      nome: azeight
+      score: 10
+    path_uri: "/api/hackaton2022/"
+    active: true
 
